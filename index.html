@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <!-- Full Page Intro -->
+        <div class="view"
+            style="background-image: url('./Assets/images/coverimage.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light align-items-center">
+                <!-- Content -->
+                <div class="container">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div>
+
+                        </div>
+                        <div class="col-md-12 mb-4 white-text text-center mt-5">
+                            <h1
+                                class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown">
+                                <strong>Cesar H Martinez</strong></h1>
+                            <hr class="hr-light my-4 wow fadeInDown">
+                            <h5 class="text-uppercase mb-4 white-text wow fadeInDown">
+                                <strong>Full Stack Web Developer</strong></h5>
+                            <a class="btn btn-outline-white wow fadeInDown" href="#portfolio"
+                                data-wow-delay="0.8s">portfolio</a>
+                            <a class="btn btn-outline-white wow fadeInDown" href="#about" data-wow-delay="0.8s">About
+                                me</a>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+        </div>
+        <!-- Full Page Intro -->
+    </header>
+    <!-- Main navigation -->
+
+    <main>
+        <div class="container my-5">
+            <!--Grid row-->
+            <div class="row py-5">
+                <!--Grid column-->
+                <div class="col-md-12 text-center">
+                    <section class="card bg-light mb-5" id="about">
+                        <h2 class="card-header">About Me</h2>
+                        <div class="card-body">
+                            <div class="row p-1">
+                                <div class="col-md-12">
+                                    <img src="./Assets/images/CesarH.jpg" class="img-fluid w-25 p-2 float-left"
+                                        alt="Profile Image">
+                                    <p class="card-text" style="text-align: justify;">I am Cesar Martinez, I am 35 years
+                                        old, I am from
+                                        Ecuador and currently living in the US. Full Stack Web Developer with a
+                                        certificate in Web
+                                        Development from John Hopkins University passionate about developing meaningful
+                                        mobile and web
+                                        apps, using different technologies like CSS, JavaScript,JQuery, Node.js, Apex,
+                                        MySQL,etc. Known
+                                        as an innovator, able to solve complex problems, and team collaborator makes me
+                                        able to drive
+                                        feasible outcomes under pressure and develop life-enhancing user experiences as
+                                        well as provide
+                                        the best perspectives on the user experiences with software platforms.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-md-12">
+                                    <p class="card-text" style="text-align: justify;">A little more about me, I love
+                                        sports, specially
+                                        Skating, I'm a former inline speed skater and I've participated as a member of
+                                        the Ecuadorian
+                                        team in some very important races as Panamerican Games, Southamerica Games and a
+                                        bunch of
+                                        national games.
+                                        I've won some national titles and international metals as well. Love spend time
+                                        with my family
+                                        and also do outdoor activities which include riding my bike, run or skate. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-info float-right" data-toggle="modal"
+                                data-target="#resumeModal">
+                                View Resume
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog"
+                                aria-labelledby="resumeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="resumeModalLabel">Resume</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe src="./Assets/docs/resume.pdf" width="100%" height="500px">
+                                            </iframe>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-info"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Section: Block Content -->
+            <section class="dark-grey-text text-center mb-4 py-5" id="portfolio">
+
+                <h2 class="h1-responsive font-weight-bold text-center">Recent Projects</h2>
+                <p class="text-center text-muted w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam
+                    voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+
+                <!-- First row -->
+                <div class="row py-5">
+
+                    <!-- First column -->
+                    <div class="col-lg-6 col-md-12 mb-4">
+
+                        <div class="view overlay z-depth-1" style="height: 75%;">
+                            <img src="./Assets/images/mainbikeshop.png" class="img-fluid"
+                                alt="Bikeshop">
+                            <div class="mask flex-center blue-gradient-rgba">
+                                <a class="btn btn-outline-white btn-rounded" href="https://vast-woodland-01889.herokuapp.com/">Livesite</a>
+                                <a class="btn btn-outline-white btn-rounded" href="https://github.com/chernanma/BikeShopApp">Repository</a>
+                            </div>                            
+                        </div>
+                        <p class="text-uppercase text-center text-muted mt-4 mb-0">Bicycle App shop is an eCommerce app that allows bike shop owners to sell cycling related products online, to shoppers through a very friendly UI. This webpage also provides a management system, along with operational features that allow owners to offer new products.</p>
+
+                    </div>
+                    <!-- First column -->
+
+                    <!-- Second column -->
+                    <div class="col-lg-6 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1" style="height: 75%;">
+                            <img src="./Assets/images/maincovid.png" class="img-fluid"
+                                alt="Sample image">
+                            <div class=" mask flex-center blue-gradient-rgba">
+                                <a class="btn btn-outline-white btn-rounded" href="https://chernanma.github.io/Project_1/">Livesite</a>
+                                <a class="btn btn-outline-white btn-rounded" href="https://github.com/chernanma/Project_1">Repository</a>
+                            </div>
+                        </div>
+                        <p class="text-uppercase text-center text-muted mt-4 mb-0">This Covid tracker application delivers the current covid19 updates and statistics nationwide. The User can search for any city and view instantaneous status and trends pertaining to the Coronavirus disease.</p>
+
+                    </div>
+                    <!-- Second column -->                    
+
+                </div>
+                <!-- First row -->
+
+            </section>
+            <!-- Section: Block Content -->
+
+
+            <section class="dark-grey-text text-center mb-4 py-5">
+
+                <h2 class="h1-responsive font-weight-bold text-center">More Work</h2>
+                <p class="text-center text-muted w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam
+                    voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+
+                <!-- First row -->
+                <div class="row py-5">
+
+                    <!-- First column -->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <div class="view overlay z-depth-1" style="height: 75%;">
+                            <img src="./Assets/images/main.jpg" class="img-fluid"
+                                alt="Sample image">
+                            <div class="mask flex-center blue-gradient-rgba">
+                                <a class="btn btn-outline-white btn-rounded" href="https://chernanma.github.io/Weather_Dashboard/">Livesite</a>
+                                <a class="btn btn-outline-white btn-rounded" href="https://github.com/chernanma/Weather_Dashboard">Repository</a>
+                            </div>
+                        </div>
+                        <p class="text-uppercase text-center text-muted mt-4 mb-0">The Weather Dashboard</p>
+
+                    </div>
+                    <!-- First column -->
+
+                    <!-- Second column -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1" style="height: 75%;">
+                            <img src="./Assets/images/mainpage.jpg" class="img-fluid"
+                                alt="Sample image">
+                            <div class=" mask flex-center blue-gradient-rgba">
+                                <a class="btn btn-outline-white btn-rounded" href="https://chernanma.github.io/Password-Generator/">Livesite</a>
+                                <a class="btn btn-outline-white btn-rounded" href="https://github.com/chernanma/Password-Generator">Repository</a>
+                            </div>
+                        </div>
+                        <p class="text-uppercase text-center text-muted mt-4 mb-0">Password Generator</p>
+
+                    </div>
+                    <!-- Second column -->
+
+                    <!-- Third column -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1" style="height: 75%;">
+                            <img src="./Assets/images/mainquiz.jpg" class="img-fluid"
+                                alt="Sample image">
+                            <div class="mask flex-center blue-gradient-rgba">
+                                <a class="btn btn-outline-white btn-rounded" href="https://chernanma.github.io/Code-Quiz/">Livesite</a>
+                                <a class="btn btn-outline-white btn-rounded" href="https://github.com/chernanma/Code-Quiz">Repository</a>
+                            </div>
+                        </div>
+                        <p class="text-uppercase text-center text-muted mt-4 mb-0">Code Quiz</p>
+
+                    </div>
+                    <!-- Third column -->
+
+                </div>
+                <!-- First row -->
+
+                <!-- Second row -->
+                <div class="row py-5">
+
+                    <!-- First column -->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <div class="view overlay z-depth-1" style="height: 75%;">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/img3.jpg" class="img-fluid"
+                                alt="Sample image">
+                            <div class="mask flex-center blue-gradient-rgba">
+                                <a class="btn btn-outline-white btn-rounded">see more</a>
+                            </div>
+                        </div>
+                        <p class="text-uppercase text-center text-muted mt-4 mb-0">Lorem ipsum dolor sit</p>
+
+                    </div>
+                    <!-- First column -->
+
+                    <!-- Second column -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1" style="height: 75%;">
+                            <img src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg" class="img-fluid"
+                                alt="Sample image">
+                            <div class=" mask flex-center blue-gradient-rgba">
+                                <a class="btn btn-outline-white btn-rounded">see more</a>
+                            </div>
+                        </div>
+                        <p class="text-uppercase text-center text-muted mt-4 mb-0">Lorem ipsum dolor sit</p>
+
+                    </div>
+                    <!-- Second column -->
+
+                    <!-- Third column -->
+                    <div class="col-lg-4 col-md-6 mb-4" style="height: 75%;">
+
+                        <div class="view overlay z-depth-1">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/img8.jpg" class="img-fluid"
+                                alt="Sample image">
+                            <div class="mask flex-center blue-gradient-rgba">
+                                <a class="btn  btn-outline-white btn-rounded">see more</a>
+                            </div>
+                        </div>
+                        <p class="text-uppercase text-center text-muted mt-4 mb-0">Lorem ipsum dolor sit</p>
+
+                    </div>
+                    <!-- Third column -->
+
+                </div>
+                <!-- Second row -->
+
+            </section>
+            <!-- Section: Block Content -->
+
+            <!--Contac Section-->
+            <section class="dark-grey-text text-center mb-4" id="contact">
+
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center ">Contact Me</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+                    contact Me directly.</p>
+
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form">
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Your name</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Your email</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"></textarea>
+                                        <label for="message">Your message</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                        </form>
+
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-info" onclick="validateForm();">Send</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                <p>New Market, MD 21774, USA</p>
+                            </li>
+
+                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                <p><a href="tel: +13016932976">(301) 693-2976</a></p>
+                            </li>
+
+                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                <p><a href="mailto: chernanma@msn.com">chernanma@msn.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+
+            </section>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small special-color-dark pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com/cesarhernan.martineza/" target="_blank">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Github -->
+                        <a class="github-ic" href="https://github.com/chernanma" target="_blank">
+                            <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic" href="https://www.linkedin.com/in/cesar-martinez-3986b3120/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://www.instagram.com/chernanma/" target="_blank">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <span> Cesar H Martinez &reg; | Email: </span>
+            <a href="mailto: chernanma@msn.com" class="text-warning" target="_blank"
+                style="color: white;">chernanma@msn.com</a>
+            <span>| Phone: </span>
+            <a href="tel: +13016932976" class="text-warning">(301) 693-2976</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script type="text/javascript" src="Assets/js/actions.js"></script>
+</body>
+
+</html>
