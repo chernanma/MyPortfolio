@@ -4,7 +4,7 @@ The principal scope of this project is showing complete info about ME as a Full 
 
 [Click here to Access Portfolio](https://chernanma.github.io/MyPortfolio/)
 
-![picture](./Assets/images/portfolio.png)
+![picture](./Assets/images/portfolio.PNG)
 
 ---
 
